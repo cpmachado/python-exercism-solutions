@@ -3,7 +3,7 @@ Functions relating to Armstrong numbers
 """
 
 
-def is_armstrong_number(number):
+def is_armstrong_number(number: int) -> int:
     """
     :param number: int - number being checked
     :return: bool - Is it an Armstrong number?
