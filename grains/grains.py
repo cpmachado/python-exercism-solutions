@@ -5,7 +5,7 @@ It uses bit shifts and assumes a little endian architecture
 """
 
 
-def square(number):
+def square(number: int) -> int:
     """
     :param number: int - square to consider
     :return: int - number of grain in a given square
@@ -15,7 +15,7 @@ def square(number):
     return 1 << (number - 1)
 
 
-def total():
+def total() -> int:
     """
     :return: int - number of grain in all squares
     """
