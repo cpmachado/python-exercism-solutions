@@ -4,7 +4,7 @@ Functions on the Collatz Conjecture
 """
 
 
-def steps(number):
+def steps(number: int) -> int:
     """
     :param number: int - Number used as starting point
     :return: int - Number of steps until it reaches 1
